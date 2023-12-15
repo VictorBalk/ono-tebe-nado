@@ -39,7 +39,7 @@ header__address — потребуется, чтобы выравнивать б
 .header__link {
   display: flex;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
   text-underline-offset: 5px;
 }

@@ -14,7 +14,7 @@ footer__social-icon — иконка социальной сети. */
   flex-direction: column;
   justify-content: center;
   margin: 181px 24px 80px 24px;
-  grid-template: 1fr / repeat(3,1fr) ;
+  grid-template: 1fr / repeat(3, 1fr);
 }
 .footer__adress-link {
   display: flex;
@@ -35,7 +35,7 @@ footer__social-icon — иконка социальной сети. */
 
 .footer__menu-list-item {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -52,19 +52,12 @@ footer__social-icon — иконка социальной сети. */
 
 .footer__social-list {
   display: flex;
-  padding-left: 111px;
-  /* max-width: 240px; */
   justify-self: end;
   gap: 49px;
   list-style: none;
 }
 
-/* .footer__social-list-item {
-
-}
-.footer__social-link {
-
-}
 .footer__social-icon {
-
-} */
+  width: 47px;
+  height: 47px;
+}
