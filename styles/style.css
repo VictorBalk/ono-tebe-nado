@@ -1,1 +1,22 @@
-/* место для вашего кода */
+/* overlay — полупрозрачный блок поверх секции; */
+/* address — контейнер с адресом; */
+address {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+ 

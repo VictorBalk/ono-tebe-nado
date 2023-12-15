@@ -1,0 +1,68 @@
+/* footer — подвал;
+footer__menu — блок навигации по списку ссылок. Мы рекомендуем окружать список тегом <nav> с этим классом;
+footer__menu-list — список пунктов меню;
+footer__menu-list-item — пункт списка меню;
+footer__menu-link — ссылка меню;
+footer__menu-link_active — активная ссылка меню (без подчёркивания);
+footer__social-list — список ссылок на социальные сети. Можно не добавлять тег <nav>, потому что это ссылки на внешние ресурсы;
+footer__social-list-item — пункт списка ссылок на социальные сети;
+footer__social-link — ссылка на социальные сети;
+footer__social-icon — иконка социальной сети. */
+
+.footer {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  margin: 181px 24px 80px 24px;
+  grid-template: 1fr / repeat(3,1fr) ;
+}
+.footer__adress-link {
+  display: flex;
+  flex-direction: column;
+}
+/* .footer__menu {
+} */
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  list-style: none;
+  align-items: center;
+  justify-self: center;
+}
+
+.footer__menu-list-item {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__menu-link {
+  text-underline-offset: 3px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  max-width: 240px;
+  justify-self: end;
+  gap: 49px;
+  list-style: none;
+}
+
+/* .footer__social-list-item {
+
+}
+.footer__social-link {
+
+}
+.footer__social-icon {
+
+} */

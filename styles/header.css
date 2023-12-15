@@ -1,0 +1,66 @@
+/* header — вся шапка;
+header__menu — контейнер навигации;
+header__links-list — список ссылок;
+header__links-list-item — пункт списка ссылок;
+header__links-list-item_no-bullit — вам может потребоваться этот класс, чтобы сделать ссылку без кружочка перед ней;
+header__link — ссылка;
+header__link_active — активная ссылка;
+header__logo — контейнер логотипа;
+header__logo-image — картинка с логотипом;
+header__address — потребуется, чтобы выравнивать блок с адресом. В футере используется другое выравнивание. */
+
+.header {
+  display: grid;
+  /* grid-template: 1fr / repeat(3 , 1fr) ; */
+  justify-content: space-between;
+  margin: 92px 24px;
+  grid-template: 1fr / 2fr 1fr 2fr;
+}
+
+.header__menu {
+  padding-top: 43px;
+  padding-bottom: 41px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 20px;
+  list-style: circle;
+}
+
+.header__links-list-item {
+  margin-right: 12px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  display: flex;
+  color: #000;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  text-underline-offset: 5px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  justify-self: center;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  justify-self: end;
+  padding-top: 5px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+

@@ -1,0 +1,47 @@
+/* lots — вся секция;
+lots__heading — заголовок секции;
+lots__card-list — список карточек;
+lots__card-list-item — пункт списка карточки;
+lots__look-more-link — ссылка «Посмотреть больше». */
+
+.lots {
+  padding: 180px 24px 179px 24px;
+}
+
+.lots__heading {
+  padding: 0px 0px 27px 26px;
+  padding-left: 26px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  list-style: none;
+  height: 600px;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  flex-grow: 1;
+  max-width: 334px;
+}
+
+.lots__look-more-link {
+  padding: 30px 0px 0px 26px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  text-underline-offset: 5px;
+}

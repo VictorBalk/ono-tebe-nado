@@ -1,0 +1,99 @@
+/* cover — вся секция;
+cover__title — заголовок;
+aligned-text, aligned-text_center и aligned-text_right — классы для выравнивания строк текста и превращения их в блочный элемент;
+letter-spacing-extended — класс для управления межбуквенным расстоянием в местах, где есть эти акценты;
+no-letter-spacing — класс для обнуления общего межбуквенного расстояния для последней буквы;
+cover__description — контейнер для подзаголовка и кнопки;
+cover__description-text — текст подзаголовка;
+bet-button — кнопка «Сделать ставку». */
+.cover {
+  position: relative;
+  z-index: 0;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  /* background-image: url(../images/lotus-flower.png); */
+  background-position: center;
+  background-size: cover;
+}
+
+
+.cover__title {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 165px 24px 135px 24px;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  font-style: normal;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: flex;
+  line-height: 115%;
+}
+
+.aligned-text_center {
+  display: flex;
+  justify-content: end;
+  align-self: center;
+  padding-left: 30px;
+  line-height: 100%;
+}
+
+.aligned-text_right {
+    display: flex;
+  align-self: end;  
+  line-height: 100%;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  align-self: self-start;
+  letter-spacing: normal;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 0px 0px 50px 108px;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.cover__description-text {
+  padding-top: 13px;
+  word-spacing: 17px;
+}
+
+.bet-button {
+  margin-right: 24px;
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  text-align: justify;
+  text-transform: uppercase;
+  background-color: transparent;
+}
