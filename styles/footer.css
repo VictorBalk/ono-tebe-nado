@@ -19,6 +19,7 @@ footer__social-icon — иконка социальной сети. */
 .footer__adress-link {
   display: flex;
   flex-direction: column;
+  text-underline-offset: 5px;
 }
 /* .footer__menu {
 } */
@@ -38,11 +39,11 @@ footer__social-icon — иконка социальной сети. */
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 20px;
 }
 
 .footer__menu-link {
-  text-underline-offset: 3px;
+  text-underline-offset: 5px;
 }
 
 .footer__menu-link_active {
