@@ -68,7 +68,7 @@ bet-button — кнопка «Сделать ставку». */
   gap: 5px;
   padding: 0px 0px 50px 108px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -84,10 +84,10 @@ bet-button — кнопка «Сделать ставку». */
 
 .bet-button {
   margin-right: 24px;
-  border: 1px solid #fff;
-  padding: 12px 32px;
   color: #fff;
-  font-family: Raleway;
+  border: 1px solid currentColor;
+  padding: 12px 32px;
+  font-family: Raleway, Arial, sans-serif;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
