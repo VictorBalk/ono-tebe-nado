@@ -6,15 +6,14 @@ about__title — заголовок секции;
 about__text — блок для текстов секции. */
 
 .about {
-    padding-left: 120px;
-    padding-right: 24px;
+  padding-right: 24px;
+  padding-left: 120px;
 }
 
 .about__column {
   display: flex;
   justify-content: center;
   gap: 119px;
- 
 }
 
 .about__logo {
@@ -22,12 +21,10 @@ about__text — блок для текстов секции. */
   justify-content: center;
   width: 240px;
   height: 240px;
-  flex: none;
-  flex: none;
-  color: black;
-  background-color: black;
   border-radius: 50%;
   padding: 63px 46px;
+  color: black;
+  background-color: black;
 }
 
 .about__logo-image {
@@ -36,16 +33,16 @@ about__text — блок для текстов секции. */
 }
 
 .about__title {
-  text-align: start;
-  color: #000;
-  font-family: Raleway;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
   padding-top: 103px;
   padding-bottom: 100px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-align: start;
+  text-transform: uppercase;
 }
 
 .about__text {
@@ -54,9 +51,8 @@ about__text — блок для текстов секции. */
   gap: 25px;
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: 23px;
-  
 }

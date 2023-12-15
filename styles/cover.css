@@ -16,7 +16,6 @@ bet-button — кнопка «Сделать ставку». */
   background-size: cover;
 }
 
-
 .cover__title {
   position: relative;
   z-index: 2;
@@ -47,8 +46,8 @@ bet-button — кнопка «Сделать ставку». */
 }
 
 .aligned-text_right {
-    display: flex;
-  align-self: end;  
+  display: flex;
+  align-self: end;
   line-height: 100%;
 }
 
