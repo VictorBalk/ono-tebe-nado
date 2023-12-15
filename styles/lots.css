@@ -12,7 +12,7 @@ lots__look-more-link — ссылка «Посмотреть больше». */
   padding: 0px 0px 27px 26px;
   padding-left: 26px;
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
+  font-family: Raleway;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -22,23 +22,24 @@ lots__look-more-link — ссылка «Посмотреть больше». */
 
 .lots__card-list {
   display: flex;
-  flex-direction: row;
+
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  height: 600px;
   margin-bottom: 30px;
 }
 
 .lots__card-list-item {
+  display: flex;
   flex-grow: 1;
-  max-width: 334px;
+  width: 334px;
+  min-height: 450px;
 }
 
 .lots__look-more-link {
   padding: 30px 0px 0px 26px;
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
+  font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;

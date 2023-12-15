@@ -35,7 +35,7 @@ footer__social-icon — иконка социальной сети. */
 
 .footer__menu-list-item {
   color: #000;
-  font-family: Raleway, Arial, sans-serif;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -52,7 +52,8 @@ footer__social-icon — иконка социальной сети. */
 
 .footer__social-list {
   display: flex;
-  max-width: 240px;
+  padding-left: 111px;
+  /* max-width: 240px; */
   justify-self: end;
   gap: 49px;
   list-style: none;
